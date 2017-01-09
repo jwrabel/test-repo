@@ -24,6 +24,9 @@ public class Point {
         return Math.sqrt(Math.pow(x - point.getX(), 2) + Math.pow(y - point.getY(), 2));
     }
 
+
+
+
     public int getX() {
         return x;
     }
