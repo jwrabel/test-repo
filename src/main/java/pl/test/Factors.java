@@ -27,4 +27,16 @@ public class Factors {
     public void setY(int y) {
         this.y = y;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Factors factors = (Factors) o;
+
+        if (x != factors.x) return false;
+        return y == factors.y;
+    }
+
 }
