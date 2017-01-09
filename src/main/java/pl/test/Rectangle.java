@@ -29,7 +29,7 @@ public class Rectangle {
     public double centersDistance(Rectangle rectangle) {
         Point centerPoint1 = getCenterPoint();
         Point centerPoint2 = rectangle.getCenterPoint();
-
+        System.out.println("Nic nie znacząca zmiana na masterze MG");
         return centerPoint1.distance(centerPoint2);
     }
 
